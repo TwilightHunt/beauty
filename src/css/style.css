@@ -52,6 +52,16 @@ body {
   color: #333333;
 }
 
+.button {
+  padding: 12px 26px;
+  max-width: 170px;
+  line-height: 0.875;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  display: block;
+  text-align: center;
+}
+
 /* ====== HEADER-NAV ======================================================================== */
 .nav-header {
   background-color: #EFEFEF;
@@ -85,6 +95,8 @@ body {
   padding: 20px 0;
   width: 100%;
   align-items: center;
+  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .logo-header__image {
@@ -115,11 +127,13 @@ body {
 }
 
 .logo-header__button {
-  padding: 12px 26px;
-  line-height: 114%;
   border: 2px solid #F13C6E;
   border-radius: 40px;
   justify-self: flex-end;
+}
+.logo-header__button:hover {
+  background: #F13C6E;
+  color: #fff;
 }
 
 /* ====== SERVICES-HEADER ======================================================================== */
@@ -145,4 +159,50 @@ body {
 }
 .services-header__link:hover {
   text-decoration: underline;
+}
+
+/* ====== MAIN-PAGE ======================================================================== */
+.page {
+  background: url(/src/img/header/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 500px) {
+  .page {
+    background-position: 60%;
+  }
+}
+
+.main-page__body {
+  padding: 192px 0;
+  max-width: 308px;
+}
+@media (max-width: 500px) {
+  .main-page__body {
+    padding-top: 110px;
+  }
+}
+
+.main-page__title {
+  padding: 0 0 40px 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 116%;
+  color: #fff;
+}
+
+.main-page__text {
+  line-height: 142%;
+  color: #fff;
+  padding: 0 0 40px 0;
+}
+
+.main-page__button {
+  color: #fff;
+  border: 2px solid #FFFFFF;
+  letter-spacing: 0.05em;
+}
+.main-page__button:hover {
+  background: #fff;
+  color: #F13C6E;
 }/*# sourceMappingURL=style.css.map */
