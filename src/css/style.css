@@ -150,14 +150,8 @@ h3 {
 .nav-header__list {
   display: flex;
   justify-content: center;
+  gap: 10px 30px;
   flex-wrap: wrap;
-}
-
-.nav-header__item:hover {
-  text-decoration: underline;
-}
-.nav-header__item:not(:last-child) {
-  padding: 0 30px 0 0;
 }
 
 .nav-header__link {
@@ -169,22 +163,38 @@ h3 {
   background-color: #fff;
 }
 
-.logo-header__container {
+.logo-header__call {
   display: flex;
-  padding: 20px 0;
-  width: 100%;
   align-items: center;
-  justify-content: space-between;
-  justify-content: flex-end;
+  gap: 30px 40px;
+}
+@media (max-width: 950px) {
+  .logo-header__call {
+    order: 2;
+  }
 }
 
-.logo-header__image {
-  justify-content: flex-start;
+.logo-header__body {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 950px) {
+  .logo-header__body {
+    justify-content: center;
+  }
 }
 
 .logo-header__search {
   position: relative;
-  justify-self: center;
+}
+@media (max-width: 950px) {
+  .logo-header__search {
+    order: 3;
+  }
 }
 
 .logo-header__search-line {
@@ -192,6 +202,11 @@ h3 {
   background: #EFEFEF;
   border-radius: 40px;
   padding: 10px 20px 10px 50px;
+}
+@media (max-width: 950px) {
+  .logo-header__search-line {
+    min-width: 90vw;
+  }
 }
 
 .logo-header__search-icon {
@@ -201,12 +216,13 @@ h3 {
   z-index: 2;
 }
 
-.logo-header__number {
-  justify-self: flex-end;
-}
-
 .logo-header__button {
   min-width: 180px;
+}
+@media (max-width: 400px) {
+  .logo-header__button {
+    display: none;
+  }
 }
 
 /* ====== SERVICES-HEADER ======================================================================== */
@@ -220,10 +236,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   padding: 30px 0;
-}
-
-.services-header__item:not(:last-child) {
-  padding: 0 40px 0 0;
+  gap: 20px 30px;
 }
 
 .services-header__link {
@@ -353,7 +366,7 @@ h3 {
 .partners__body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
-  margin: 100px 0 80px 0;
+  margin: 0 0 80px 0;
 }
 
 .partners__item {
@@ -400,9 +413,17 @@ h3 {
 }
 
 .contacts__body {
-  display: flex;
   align-items: center;
   padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+@media (max-width: 938px) {
+  .contacts__body {
+    justify-content: flex-start;
+  }
 }
 
 .contacts__socials {
@@ -426,6 +447,17 @@ h3 {
   flex: 0 1 20px;
 }
 
+.contacts__call {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 395px) {
+  .contacts__call {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+}
+
 .contacts__addres {
   color: #000;
   line-height: 114%;
@@ -434,6 +466,12 @@ h3 {
 .contacts__number {
   font-size: 16px;
   line-height: 118%;
+  margin: 0 40px 0 0;
+}
+@media (max-width: 412px) {
+  .contacts__number {
+    margin: 0 20px 0 0;
+  }
 }
 
 .contacts__button {
