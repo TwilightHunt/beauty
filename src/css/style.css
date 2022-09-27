@@ -98,6 +98,15 @@ h3 {
   letter-spacing: 0.05em;
 }
 
+.button_hollow-pink {
+  border: 2px solid #F13C6E;
+  border-radius: 40px;
+}
+.button_hollow-pink:hover {
+  background: #F13C6E;
+  color: #fff;
+}
+
 /* ====== PRODUCTS-LIST ======================================================================== */
 .product-list {
   display: grid;
@@ -197,13 +206,7 @@ h3 {
 }
 
 .logo-header__button {
-  border: 2px solid #F13C6E;
-  border-radius: 40px;
-  justify-self: flex-end;
-}
-.logo-header__button:hover {
-  background: #F13C6E;
-  color: #fff;
+  min-width: 180px;
 }
 
 /* ====== SERVICES-HEADER ======================================================================== */
@@ -363,8 +366,9 @@ h3 {
 }
 
 /* ====== FOOTER-MENU ======================================================================== */
-.footer {
-  background-color: #fff;
+.footer-menu {
+  background: #fff;
+  margin: 0 0 1px 0;
 }
 
 .footer-menu__body {
@@ -388,4 +392,71 @@ h3 {
   font-size: 12px;
   line-height: 233%;
   color: #828282;
+}
+
+/* ====== CONTACTS ======================================================================== */
+.contacts {
+  background: #fff;
+}
+
+.contacts__body {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.contacts__socials {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.contact__social {
+  border: 2px solid #F13C6E;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  display: flex;
+  flex: column;
+  justify-content: center;
+}
+
+.contacts__social__link {
+  flex: 0 1 20px;
+}
+
+.contacts__addres {
+  color: #000;
+  line-height: 114%;
+}
+
+.contacts__number {
+  font-size: 16px;
+  line-height: 118%;
+}
+
+.contacts__button {
+  min-width: 180px;
+}
+
+/* ====== CREDITS ======================================================================== */
+.credits {
+  background: #EFEFEF;
+}
+
+.credits__body {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.credits__text {
+  color: #828282;
+  line-height: 116%;
+}
+
+.credits__link {
+  color: #828282;
+  line-height: 116%;
 }/*# sourceMappingURL=style.css.map */
