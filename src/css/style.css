@@ -52,6 +52,10 @@ body {
   color: #333333;
 }
 
+.page {
+  margin: 0 0 80px 0;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -356,4 +360,32 @@ h3 {
 
 .partners__image {
   padding: 35px 60px;
+}
+
+/* ====== FOOTER-MENU ======================================================================== */
+.footer {
+  background-color: #fff;
+}
+
+.footer-menu__body {
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  gap: 20px 30px;
+}
+
+.footer-menu__item__title {
+  margin: 0 0 55px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140.62%;
+  color: #000;
+}
+
+.footer-menu__item__link {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 233%;
+  color: #828282;
 }/*# sourceMappingURL=style.css.map */
