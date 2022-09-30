@@ -1,0 +1,54 @@
+.contacts {
+    background: #fff;
+}
+.contacts__body {
+    align-items: center;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    @media (max-width: 938px) {
+        justify-content: flex-start;
+    }
+}
+.contacts__socials {
+    display: flex;
+    column-gap: 20px;
+}
+.contact__social {
+    border: 2px solid #F13C6E;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    flex: column;
+    justify-content: center;
+}
+.contacts__social__link {
+    flex: 0 1 20px;
+}
+.contacts__call{
+    display: flex;
+    align-items: center;
+    @media (max-width: 395px) {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+}
+.contacts__addres {
+    color: #000;
+    line-height: 114%;
+}
+.contacts__number {
+    font-size: 16px;
+    line-height: 118%;
+    margin: 0 40px 0 0;
+    @media (max-width: 412px) {
+        margin: 0 20px 0 0;
+    }
+}
+.contacts__button {
+    min-width: 180px;
+}

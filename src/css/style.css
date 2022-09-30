@@ -31,83 +31,6 @@ html, body {
   color: black;
 }
 
-[class*=__container] {
-  margin: 0 auto;
-  max-width: 1180px;
-  padding: 0 35px;
-}
-
-.wrapper {
-  min-height: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-body {
-  background-color: #EFEFEF;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: Roboto;
-  color: #333333;
-}
-
-.page {
-  margin: 0 0 80px 0;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 116%;
-  color: #000;
-  margin: 0 0 38px 0;
-}
-
-/* ====== BUTTONS ======================================================================== */
-.button {
-  padding: 12px 26px;
-  max-width: 170px;
-  line-height: 0.875;
-  border-radius: 40px;
-  transition: all 0.3s ease;
-  display: block;
-  text-align: center;
-}
-.button:hover {
-  text-decoration: none;
-}
-
-.button_hollow {
-  color: #fff;
-  border: 2px solid #FFFFFF;
-  letter-spacing: 0.05em;
-}
-.button_hollow:hover {
-  background: #fff;
-  color: #F13C6E;
-}
-
-.button_pink {
-  background: #F13C6E;
-  color: #fff;
-  letter-spacing: 0.05em;
-}
-
-.button_hollow-pink {
-  border: 2px solid #F13C6E;
-  border-radius: 40px;
-}
-.button_hollow-pink:hover {
-  background: #F13C6E;
-  color: #fff;
-}
-
-/* ====== PRODUCTS-LIST ======================================================================== */
 .product-list {
   display: grid;
   gap: 20px 30px;
@@ -141,7 +64,6 @@ h3 {
   margin: 0 auto;
 }
 
-/* ====== HEADER-NAV ======================================================================== */
 .nav-header {
   background-color: #EFEFEF;
   padding: 16px 0;
@@ -158,7 +80,6 @@ h3 {
   line-height: 114%;
 }
 
-/* ====== LOGO-HEADER ======================================================================== */
 .logo-header {
   background-color: #fff;
 }
@@ -225,7 +146,6 @@ h3 {
   }
 }
 
-/* ====== SERVICES-HEADER ======================================================================== */
 .services-header {
   margin: 1px 0 0 0;
   background-color: #fff;
@@ -247,7 +167,6 @@ h3 {
   text-decoration: underline;
 }
 
-/* ====== MAIN-PAGE ======================================================================== */
 .main-page {
   background: url(/src/img/header/bg.jpg);
   background-size: cover;
@@ -283,12 +202,10 @@ h3 {
   padding: 0 0 40px 0;
 }
 
-/* ====== SPECIALS ======================================================================== */
 .specials__body {
   padding: 80px 0 100px 0;
 }
 
-/* ====== SERVICES ======================================================================== */
 .services__container {
   max-width: 1110px;
   display: grid;
@@ -362,7 +279,6 @@ h3 {
      object-fit: contain;
 }
 
-/* ====== PARTNERS ======================================================================== */
 .partners__body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
@@ -378,7 +294,6 @@ h3 {
   padding: 35px 60px;
 }
 
-/* ====== FOOTER-MENU ======================================================================== */
 .footer-menu {
   background: #fff;
   margin: 0 0 1px 0;
@@ -407,7 +322,6 @@ h3 {
   color: #828282;
 }
 
-/* ====== CONTACTS ======================================================================== */
 .contacts {
   background: #fff;
 }
@@ -478,7 +392,6 @@ h3 {
   min-width: 180px;
 }
 
-/* ====== CREDITS ======================================================================== */
 .credits {
   background: #EFEFEF;
 }
@@ -499,4 +412,79 @@ h3 {
 .credits__link {
   color: #828282;
   line-height: 116%;
+}
+
+.button {
+  padding: 12px 26px;
+  max-width: 170px;
+  line-height: 0.875;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  display: block;
+  text-align: center;
+}
+.button:hover {
+  text-decoration: none;
+}
+
+.button_hollow {
+  color: #fff;
+  border: 2px solid #FFFFFF;
+  letter-spacing: 0.05em;
+}
+.button_hollow:hover {
+  background: #fff;
+  color: #F13C6E;
+}
+
+.button_pink {
+  background: #F13C6E;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+.button_hollow-pink {
+  border: 2px solid #F13C6E;
+  border-radius: 40px;
+}
+.button_hollow-pink:hover {
+  background: #F13C6E;
+  color: #fff;
+}
+
+[class*=__container] {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 0 35px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #EFEFEF;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #333333;
+}
+
+.page {
+  margin: 0 0 80px 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 116%;
+  color: #000;
+  margin: 0 0 38px 0;
 }/*# sourceMappingURL=style.css.map */

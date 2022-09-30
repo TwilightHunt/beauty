@@ -1,0 +1,15 @@
+.nav-header {
+  background-color: #EFEFEF;
+  padding: 16px 0;
+}
+
+.nav-header__list {
+  display: flex;
+  justify-content: center;
+  gap: 10px 30px;
+  flex-wrap: wrap;
+}
+
+.nav-header__link {
+  line-height: 114%;
+}/*# sourceMappingURL=nav-header.css.map */

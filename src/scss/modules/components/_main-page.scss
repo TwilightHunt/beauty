@@ -1,0 +1,27 @@
+.main-page {
+    background: url(/src/img/header/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    @media (max-width: 500px) {
+        background-position: 60%;
+    }
+}
+.main-page__body {
+    padding: 192px 0;
+    max-width: 308px;
+    @media (max-width: 500px) {
+        padding-top: 110px;
+    }
+}
+.main-page__title {
+    padding: 0 0 40px 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 116%;
+    color: #fff;
+}
+.main-page__text {
+    line-height: 142%;
+    color: #fff;
+    padding: 0 0 40px 0;
+}

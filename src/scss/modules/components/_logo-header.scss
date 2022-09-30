@@ -1,0 +1,47 @@
+.logo-header {
+    background-color: #fff;
+}
+.logo-header__call {
+    display: flex;
+    align-items: center;
+    gap: 30px 40px;
+    @media (max-width: 950px) {
+        order: 2;
+    }
+}
+.logo-header__body {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 950px) {
+        justify-content: center;
+    }
+}
+.logo-header__search {
+    position: relative;
+    @media (max-width: 950px) {
+        order: 3;
+    }
+}
+.logo-header__search-line {
+    min-width: 250px;
+    background: #EFEFEF;
+    border-radius: 40px;
+    padding: 10px 20px 10px 50px;
+    @media (max-width: 950px) {
+        min-width: 90vw;
+    }
+}
+.logo-header__search-icon {
+    position: absolute;
+    top: 8px; left: 20px; z-index: 2;
+}
+.logo-header__button{
+    min-width: 180px;
+    @media (max-width: 400px) {
+        display: none;
+    }
+}

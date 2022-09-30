@@ -1,0 +1,24 @@
+.footer-menu{
+    background: #fff;
+    margin: 0 0 1px 0;
+}
+.footer-menu__body {
+    padding: 60px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    gap: 20px 30px;
+}
+.footer-menu__item__title {
+    margin: 0 0 55px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000;
+}
+.footer-menu__item__link {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 233%;
+    color: #828282;
+}

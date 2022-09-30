@@ -1,0 +1,18 @@
+.credits {
+    background: #EFEFEF;
+}
+.credits__body {
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+.credits__text {
+    color: #828282;
+    line-height: 116%;
+}
+.credits__link {
+    color: #828282;
+    line-height: 116%;
+}

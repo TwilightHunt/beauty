@@ -1,0 +1,28 @@
+.product-list {
+    display: grid;
+    gap: 20px 30px;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+}
+.product {
+    padding: 25px 30px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    text-align: center;
+}
+.product__title {
+    line-height: 142%;
+}
+.product__price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 119%;
+    letter-spacing: 0.05em;
+    color: #000;
+}
+.product__button{
+    width: 130px;
+    margin: 0 auto;
+}
